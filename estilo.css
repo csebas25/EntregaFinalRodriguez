@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white; /* Color del texto general en la página */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Nuevo formato de letra */
+    color: yellow; /* Color amarillo para el título */
+    font-size: 36px; /* Tamaño de la fuente */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+form, #nacionalidadContainer, #formCalculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: black; /* Color de las letras en los formularios */
+}
+
+form label, #nacionalidadContainer label, #formCalculo p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black; /* Color del texto en los labels y párrafos */
+}
+
+form input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: black; /* Color del texto en los campos de entrada */
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 200px;
+    color: black; /* Color del texto en los botones */
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.red {
+    background-color: red !important;
+}
